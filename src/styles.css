@@ -8,6 +8,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 10px;
+  margin: 0 auto;
 }
 
 .dropdownBox {
@@ -24,6 +26,7 @@
   display: grid;
   grid-template-columns: 1fr;
   border: 1px solid black;
+  width: max-content;
 }
 .dropdownList p {
   margin: 4px 0;

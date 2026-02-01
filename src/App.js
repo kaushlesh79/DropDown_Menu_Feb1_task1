@@ -9,7 +9,7 @@ export default function App() {
 
   const dropdownRef = useRef(null);
 
-  // for handling click outside dropdown // but not working here
+  // for handling click outside dropdown Menu
   useEffect(() => {
     const handleClickOutside = (e) => {
       if (dropdownRef.current && !dropdownRef.current.contains(e.target)) {
