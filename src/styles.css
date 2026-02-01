@@ -1,0 +1,37 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.dropdownMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdownBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border: 1px solid black;
+  width: 100px;
+  height: 50px;
+}
+
+.dropdownList {
+  display: grid;
+  grid-template-columns: 1fr;
+  border: 1px solid black;
+}
+.dropdownList p {
+  margin: 4px 0;
+  cursor: pointer;
+  border-bottom: 1px solid black;
+  width: 100px;
+  height: 50px;
+}
+.dropdownToggle {
+  cursor: pointer;
+}
