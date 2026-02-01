@@ -1,1 +1,10 @@
 node_modules
+pnpm-lock.yaml
+.codesandbox/tasks.json
+build/index.html
+build/static/css/main.9b7dbaf9.css
+build/static/css/main.9b7dbaf9.css.map
+build/static/js/main.98a4a127.js
+build/static/js/main.98a4a127.js.LICENSE.txt
+build/static/js/main.98a4a127.js.map
+build/asset-manifest.json
